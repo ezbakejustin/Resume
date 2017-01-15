@@ -1,0 +1,58 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.bottom-line {
+    border-bottom: 1px solid black;
+}
+
+.left-line {
+    border-left: 1px solid black;
+}
+
+.hspace1x {
+    padding-left: 30px;
+}
+
+.hspace2x {
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 767px) {
+    .left, .right {
+        text-align: center;
+    }
+
+    .bottom-line {
+        border-bottom: none;
+    }
+
+    .left-line {
+        border-left: 0px;
+    }
+}
+
+
+.heading {
+    font-style: italic;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.vspace1x {
+    height: 15px;
+}
+
+.vspace2x {
+    height: 30px;
+}
