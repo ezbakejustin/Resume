@@ -1,0 +1,59 @@
+Accomplishments/Achievements
+2016 Tech Star for Zillow Group
+Named one of fifteen Tech Stars out of the 1200 Technological Positions for all of Zillow Group during the December 2016
+“ZG Week”
+
+Winner of 5 out of 6 Hack Weeks
+Zillow has a semi-annual “Hack Week” where employees can work on any project that may benefit the company. A popular
+vote and a panel of judges pick the two winning projects each Hack Week out of the roughly dozen projects at the Lincoln
+office. Winning projects include:
+Project ICE - An auditing tool that refactored a large volume of technical debt and created an audit report and paper
+trail for billing and account management.
+Positive Outlook - An automation tool used to read and process incoming investor emails containing rate data links and
+attachments. UI for entering regex rules and a testing tool to check that the regex matches doesn’t overlap other rules.
+Before this project, it took four people manually checking Outlook emails, following a spreadsheet of information on
+where to download files with filename changes.
+Node-ifications - A Node/Firebase push notification service to alert logged in clients of new leads, status changes,
+rate update notifications, and caller ids for Instant/Group Dials
+Object Archive - API with SDK which records only the differences of serializable java objects. The historical
+differences can then be viewed by administrators through a side-by-side UI.
+
+
+Notable Projects
+Overhauled more than 300 jsp/html pages of early 2000’s Dreamweaver code to use a single included header file with
+global stylesheet, common javascript, session management, and google analytics - 2010
+
+Made preliminary Selenium test procedures for pre-release regression testing - 2011
+
+Moved common css and js files to Google App Engine to use as a CDN to reduce web hosting costs from data center. - 2011
+
+Created Google App Engine hosted widgets for clients to add to their own websites. Using a single javascript tag, the
+clients could add customizable rate searches and contact forms. - 2011
+
+Migration from hosted data center to Amazon Web Services - 2012/2013
+
+Created in house Dialer product using Twilio. First to contact is very import for mortgage leads. Built
+Client-Before-Lead Instant Dialer for individual loan officers. Built Group-Before-Lead Shotgun Dialer to call a group
+of loan officers where the first to answer would be assigned the lead and then connected. Both dialers outperformed all
+competitor first to contact solutions. - 2014
+
+Created API for integrating Loan Origination system updates with Zillow via AWS SQS to allow for end-user loan status
+updates. - 2015
+
+Moved common javascript and styles to AWS CloudFront. A standalone project uses Grunt to combine and minify files which
+are then uploaded to an S3 bucket via Jenkins. - 2016
+
+Java6 to Java8 migration - 2017
+
+
+Responsibilities
+
+In charge of 2015 - 2017 Internship Program
+Interviews / Mentorship / Program Management
+
+Team Scrum Master
+Coordinating Sprint Reviews with Stakeholders, Moderating Sprint Retrospectives, Scoping future Sprint work, Attending
+Release Team meetings to discuss deployment of the Team’s work.
+
+Culture Committee
+Help to plan and coordinate Lincoln office team events, outings, and happy hours.

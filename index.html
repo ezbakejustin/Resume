@@ -1,9 +1,9 @@
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/print-style.css" media="print">
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
@@ -20,7 +20,10 @@
 
     <div class="col-sm-6 right bottom-line">
         <div>970.234.3206</div>
-        <div><a href="mailto:ezbakejustin@gmail.com">ezbakejustin@gmail.com</a></div>
+        <div>
+            <span class="visible-print">ezbakejustin@gmail.com</span>
+            <a href="mailto:ezbakejustin@gmail.com" class="hidden-print">ezbakejustin@gmail.com</a>
+        </div>
     </div>
 
     <div class="col-xs-12 vspace2x"></div>
@@ -30,141 +33,235 @@
     </div>
 
     <div class="col-sm-10 left-line">
-        <div class="hspace1x">
-            <b>University of Nebraska - Lincoln</b>
-            <div class="pull-right">December 2009</div>
+        <div class="row title">
+            <div class="col-sm-8 left">University of Nebraska - Lincoln</div>
+            <div class="col-sm-4 right">December 2009</div>
         </div>
-        <div class="hspace2x">
-            Bachelor of Science <br>
-            Major: Computer Science <br>
-            Minor: Math
+        <div class="content">
+            <ul class="no-image middle text-left">
+                <li>Bachelor of Science</li>
+                <li>Major: Computer Science</li>
+                <li>Minor: Math</li>
+            </ul>
         </div>
     </div>
 
-    <div class="col-xs-12 vspace2x"></div>
+    <div class="col-xs-12 vspace3x"></div>
 
     <div class="col-sm-2 heading h4">
         Experience
     </div>
 
     <div class="col-sm-10 left-line">
-        <div class="hspace1x">
-            <b>Zillow Group - Lincoln</b>
-            <div class="pull-right">March 2010 - Current</div>
+        <div class="row title">
+            <div class="col-xs-12 col-sm-4 left">Zillow Group - Lincoln</div>
+            <div class="col-xs-6 col-sm-4 middle">Software Engineer</div>
+            <div class="col-xs-6 col-sm-4 right">March 2010 - Current</div>
         </div>
 
-        <div class="h5 heading hspace1x">
-            Responsibilities
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Responsibilities</div>
         </div>
-        <ul class="hspace2x">
-            <li>Full Stack Architecting, Scoping, and Development of RESTful services and APIs</li>
-            <li>Lead User Experience Developer</li>
-            <li>Recruiting, Interviewing and Mentoring for the Summer Internship Program</li>
-            <li>Agile Team Scrum Master responsible for coordinating reviews, retros, and release planning</li>
-        </ul>
-        <div class="col-xs-12 vspace1x"></div>
-
-        <div class="h5 heading hspace1x">
-            Awards / Acknowledgements
+        <div class="content col-sm-12">
+            <ul>
+                <li>Full Stack Architecting, Scoping, and Development of RESTful services and APIs</li>
+                <li>Lead User Experience Developer</li>
+                <li>Recruiting, Interviewing and Mentoring for the Summer Internship Program</li>
+                <li>Agile Team Scrum Master responsible for coordinating reviews, retros, and release planning</li>
+            </ul>
         </div>
-        <ul class="hspace2x">
-            <li>2016 Zillow Group Tech Star - Company Wide - <i>December 2016</i></li>
-            <li>2015 ZuperStar - Lincoln Office - <i>March 2015</i></li>
-            <li>HackWeek Winner - Lincoln Office -
-                <div width="100px">March 2014<br>
-                    October 2014<br>
-                    June 2015
-                    November 2015
-                    November 2016
-                </div>
-            </li>
 
-        </ul>
-        <div class="col-xs-12 vspace1x"></div>
-
-        <div class="h5 heading hspace1x">
-            Technologies / Tools
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Awards / Acknowledgements</div>
         </div>
-        <ul class="hspace2x">
-            <li>AWS: EC2, EB, RDS, S3, CloudFront, Lambda, DynamoDB</li>
-            <li>Apache-Tomcat, Node</li>
-            <li>Java6, Java8, Restlet, Servlet/JSP, Angular 1&amp;2, jQuery</li>
-            <li>Intellij, WebStorm, VIM, Bash</li>
-        </ul>
+        <div class="content col-sm-12">
+            <ul>
+                <li>2016 Zillow Group Tech Star - Company Wide - <i>December 2016</i></li>
+                <li>2015 ZuperStar - Lincoln Office - <i>March 2015</i></li>
+                <li>HackWeek Winner - Lincoln Office - <i>March 2014, October 2014, June 2015, November 2015, November
+                    2016</i>
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Technologies / Tools</div>
+        </div>
+        <div class="content col-sm-12">
+            <ul>
+                <li>AWS: EC2, EB, RDS, S3, SQS, SNS, CloudFront, Lambda, DynamoDB</li>
+                <li>Apache-Tomcat, Node</li>
+                <li>Java6, Java8, Restlet, Servlet/JSP, Angular 1&amp;2, jQuery, MySQL</li>
+                <li>Intellij, WebStorm, VIM, Bash</li>
+                <li>JWT, Twilio, SalesForce</li>
+            </ul>
+        </div>
     </div>
+
+    <div class="col-xs-12 vspace2x"></div>
+
+    <div class="col-sm-2"></div>
+
+    <div class="col-sm-10 left-line">
+        <div class="row title">
+            <div class="col-xs-12 col-sm-4 left">University of Nebraska - Lincoln</div>
+            <div class="col-xs-6 col-sm-4 middle">Undergraduate Teaching Assistant</div>
+            <div class="col-xs-6 col-sm-4 right">August 2009 - December 2009</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Responsibilities</div>
+        </div>
+        <div class="content col-xs-12">
+            <ul>
+                <li>Lead laboratory exercises in Matlab and C++</li>
+                <li>Grade homework assignments</li>
+                <li>Design and Implement future lab and homework assignments</li>
+                <li>Maintain office hours for individual assistance as needed</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-xs-12 vspace2x"></div>
+
+    <div class="col-sm-2"></div>
+
+    <div class="col-sm-10 left-line">
+        <div class="row title">
+            <div class="col-xs-12 col-sm-4 left">Cabela's World's Foremost Bank - Lincoln</div>
+            <div class="col-xs-6 col-sm-4 middle">Customer Service Team Leader</div>
+            <div class="col-xs-6 col-sm-4 right">September 2005 - October 2008</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Responsibilities</div>
+        </div>
+        <div class="content col-xs-12">
+            <ul>
+                <li>Manage Customer Service Representatives</li>
+                <li>Train and support employees</li>
+                <li>Take escalated phone calls</li>
+                <li>Scripting and automating fee removals and credit issuance</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-xs-12 vspace3x"></div>
+
+    <div class="col-sm-2 heading h4">
+        Hobby Projects
+    </div>
+
+    <div class="col-sm-10 left-line">
+        <div class="row title">
+            <div class="col-xs-12 col-sm-4 left text-nowrap">
+                StageSpotter.com
+                <a target="_blank" class="hidden-print" href="https://www.stagespotter.com">
+                    <span class="glyphicon glyphicon-link"></span>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 middle">Co-Owner / Software Engineer</div>
+            <div class="col-xs-6 col-sm-4 right">July 2016 - Current</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Notable Features</div>
+        </div>
+        <div class="content col-xs-12">
+            <ul>
+                <li>Startup aimed at creating a Marketplace for Live Music</li>
+                <li>Uploaded Images have Resize Automation/Optimization</li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Technologies / Tools</div>
+        </div>
+        <div class="content col-xs-12">
+            <ul>
+                <li>Twitter Bootstrap</li>
+                <li>Angular 1.5</li>
+                <li>AWS EB, RDS, S3, CloudFront</li>
+                <li>Grunt in Gradle</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-xs-12 vspace2x"></div>
+
+    <div class="col-sm-2"></div>
+
+    <div class="col-sm-10 left-line">
+        <div class="row title">
+            <div class="col-xs-12 col-sm-4 left text-nowrap">
+                neofficials.com
+                <a target="_blank" class="hidden-print" href="http://www.neofficials.com">
+                    <span class="glyphicon glyphicon-link"></span>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 middle">Contract Software Engineer</div>
+            <div class="col-xs-6 col-sm-4 right">March 2014 - Current</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Notable Features</div>
+        </div>
+        <div class="content col-sm-12">
+            <ul>
+                <li>All Site content is rendered using Google Docs!</li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 subheading h5">Technologies / Tools</div>
+        </div>
+        <div class="content col-sm-12">
+            <ul>
+                <li>Google AppEngine</li>
+                <li>Google Docs</li>
+                <li>jQuery</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-xs-12 vspace3x"></div>
+
+    <div class="col-sm-2 heading h4">
+        Technology
+    </div>
+
+    <div class="col-sm-10 left-line">
+        <div class="content col-xs-22">
+            <div class="col-xs-2">Java</div>
+            <div class="col-xs-2">JavaScript</div>
+            <div class="col-xs-2">TypeScript</div>
+            <div class="col-xs-2">CSS</div>
+            <div class="col-xs-2">HTML</div>
+            <div class="col-xs-2">JSON</div>
+            <div class="col-xs-2">XML</div>
+            <div class="col-xs-2">XSLT</div>
+            <div class="col-xs-2">Gradle</div>
+            <div class="col-xs-2">Jenkins</div>
+            <div class="col-xs-2">Webpack</div>
+            <div class="col-xs-2">Grunt</div>
+            <div class="col-xs-2">AWS</div>
+            <div class="col-xs-3 col-sm-2 text-nowrap">Google AppEngine</div>
+            <div class="col-xs-2">MySQL</div>
+            <div class="col-xs-2">NoSQL</div>
+            <div class="col-xs-2">Intellij</div>
+            <div class="col-xs-2">WebStorm</div>
+            <div class="col-xs-2">Netbeans</div>
+            <div class="col-xs-3  col-sm-2">Apache/Tomcat</div>
+            <div class="col-xs-2">Node</div>
+            <div class="col-xs-2">Restlet</div>
+            <div class="col-xs-3">Servlet/JSP</div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 vspace3x"></div>
+    <div class="col-xs-12 vspace3x hidden-print"></div>
+
+    <div class="text-center small hidden-print">Updated January 2017</div>
+
+    <div class="col-xs-12 vspace1x"></div>
 </div>
-
-<div class="col-xs-12 vspace1x"></div>
-<div class="col-xs-12 vspace1x"></div>
-<div class="col-xs-12 vspace1x"></div>
-
-
-Work Experience
-Zillow - Software Engineer - March 2010 - Present
-Full Stack Developer - MySQL - Java - Restlet/Servlet/JSP - Html/JS/CSS - AngularJS 1&2 - AWS/Linux - Apache/Tomcat
-
-Accomplishments/Achievements
-2016 Tech Star for Zillow Group
-Named one of fifteen Tech Stars out of the 1200 Technological Positions for all of Zillow Group during the December 2016
-“ZG Week”
-
-Winner of 5 out of 6 Hack Weeks
-Zillow has a semi-annual “Hack Week” where employees can work on any project that may benefit the company. A popular
-vote and a panel of judges pick the two winning projects each Hack Week out of the roughly dozen projects at the Lincoln
-office. Winning projects include:
-Project ICE - An auditing tool that refactored a large volume of technical debt and created an audit report and paper
-trail for billing and account management.
-Positive Outlook - An automation tool used to read and process incoming investor emails containing rate data links and
-attachments. UI for entering regex rules and a testing tool to check that the regex matches doesn’t overlap other rules.
-Before this project, it took four people manually checking Outlook emails, following a spreadsheet of information on
-where to download files with filename changes.
-Node-ifications - A Node/Firebase push notification service to alert logged in clients of new leads, status changes,
-rate update notifications, and caller ids for Instant/Group Dials
-Object Archive - API with SDK which records only the differences of serializable java objects. The historical
-differences can then be viewed by administrators through a side-by-side UI.
-
-
-Notable Projects
-Overhauled more than 300 jsp/html pages of early 2000’s Dreamweaver code to use a single included header file with
-global stylesheet, common javascript, session management, and google analytics - 2010
-
-Made preliminary Selenium test procedures for pre-release regression testing - 2011
-
-Moved common css and js files to Google App Engine to use as a CDN to reduce web hosting costs from data center. - 2011
-
-Created Google App Engine hosted widgets for clients to add to their own websites. Using a single javascript tag, the
-clients could add customizable rate searches and contact forms. - 2011
-
-Migration from hosted data center to Amazon Web Services - 2012/2013
-
-Created in house Dialer product using Twilio. First to contact is very import for mortgage leads. Built
-Client-Before-Lead Instant Dialer for individual loan officers. Built Group-Before-Lead Shotgun Dialer to call a group
-of loan officers where the first to answer would be assigned the lead and then connected. Both dialers outperformed all
-competitor first to contact solutions. - 2014
-
-Created API for integrating Loan Origination system updates with Zillow via AWS SQS to allow for end-user loan status
-updates. - 2015
-
-Moved common javascript and styles to AWS CloudFront. A standalone project uses Grunt to combine and minify files which
-are then uploaded to an S3 bucket via Jenkins. - 2016
-
-Java6 to Java8 migration - 2017
-
-
-Responsibilities
-
-In charge of 2015 - 2017 Internship Program
-Interviews / Mentorship / Program Management
-
-Team Scrum Master
-Coordinating Sprint Reviews with Stakeholders, Moderating Sprint Retrospectives, Scoping future Sprint work, Attending
-Release Team meetings to discuss deployment of the Team’s work.
-
-Culture Committee
-Help to plan and coordinate Lincoln office team events, outings, and happy hours.
-
-
-<div class="col-xs-12 vspace1x"></div>
 
 
 </body>

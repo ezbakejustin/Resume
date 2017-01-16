@@ -1,6 +1,10 @@
 body {
-    font-size: 12px;
-    font-family: Arial;
+    font-size: 13px;
+    min-width: 420px;
+}
+
+ul.no-image {
+    list-style-type: none;
 }
 
 .left {
@@ -11,11 +15,16 @@ body {
     text-align: right;
 }
 
+.col-sm-4.middle {
+    text-align: center;
+}
+
 .bottom-line {
     border-bottom: 1px solid black;
 }
 
 .left-line {
+    padding-left: 30px;
     border-left: 1px solid black;
 }
 
@@ -27,9 +36,58 @@ body {
     padding-left: 60px;
 }
 
-@media screen and (max-width: 767px) {
-    .left, .right {
+.vspace1x {
+    height: 15px;
+}
+
+.vspace2x {
+    height: 30px;
+}
+
+.vspace3x {
+    height: 45px;
+}
+
+.heading {
+    font-style: italic;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.subheading {
+    font-style: italic;
+    margin: 5px 0px 5px 0px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.title div {
+    text-wrap: none;
+}
+
+.content {
+    padding-left: 10px;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+
+    .left, .middle, .right, .heading {
         text-align: center;
+    }
+
+    .left {
+        font-weight: bolder;
+    }
+
+    .middle, .right {
+        font-size: 12px;
+        padding: 0px;
     }
 
     .bottom-line {
@@ -39,20 +97,33 @@ body {
     .left-line {
         border-left: 0px;
     }
+
+    .heading {
+        margin-bottom: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    .subheading {
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 13px;
+    }
 }
 
-
-.heading {
-    font-style: italic;
-    vertical-align: top;
-    margin-top: 0px;
-    margin-bottom: 0px;
+@media (max-width: 660px) {
+    body {
+        font-size: 12px;
+    }
 }
 
-.vspace1x {
-    height: 15px;
-}
+@media (max-width: 500px) {
+    .h4 {
+        font-size: 15px;
+    }
 
-.vspace2x {
-    height: 30px;
+    body {
+        font-size: 11px;
+    }
 }
